@@ -12,7 +12,7 @@ detector bot*.
 I can ban the channels which
 spams your chat!
 
-*(c) @AboutReeshu*
+*(c) @AogiriNetwork*
 	`
 	if ctx.EffectiveChat.Type != "private" {
 		ctx.EffectiveMessage.Reply(
@@ -28,7 +28,7 @@ spams your chat!
 				ParseMode: "markdown",
 				ReplyMarkup: gotgbot.InlineKeyboardMarkup{
 					InlineKeyboard: [][]gotgbot.InlineKeyboardButton{{
-						{Text: "My Source Code", Url: "github.com/Reeshuxd/ChannelBot"},
+						{Text: "My Source Code", Url: "https://t.me/AogiriNetwork"},
 					}},
 				},
 			},
